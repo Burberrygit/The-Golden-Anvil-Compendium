@@ -1,22 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Golden Anvil Compendium (Modern UI, folder-based JSON management)
-
-- Creates ./json_files on startup (next to the script/exe)
-- On first run, copies a bundled prices.json into ./json_files if missing
-- "Load JSON..." copies external files into ./json_files (deduped name)
-- File dropdown shows "All files" + each JSON (name without .json)
-- Filters by name and price range (pp/gp/ep/sp/cp); displays conversions
-- Scrollable, sortable table
-- Styled to match Golden Anvil colors
-- EXE-friendly resource handling (PyInstaller: sys._MEIPASS)
-
-Install (for dev runs):
-    pip install customtkinter pillow
-"""
-
 import json
 import os
 import sys
@@ -611,6 +595,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
