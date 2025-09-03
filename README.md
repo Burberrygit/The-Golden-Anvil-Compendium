@@ -35,4 +35,6 @@ If you’d like to run the script with Python instead:
 
    
    pip install customtkinter pillow
+
+
    run: python script.py
